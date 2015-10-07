@@ -1,5 +1,6 @@
 require 'simplecov'
 
+# Test file changes
 SimpleCov.profiles.define 'gem' do
   add_filter '/test/'
   add_filter '/features/'
